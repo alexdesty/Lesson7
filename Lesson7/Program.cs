@@ -4,7 +4,7 @@ internal class Program
     static void Main(string[] args)
     {
         var array = new int[6];
-        for (int i = 0;i < array.Length;i++)
+        for (var i = 0;i < array.Length;i++)
         {
             {
                 Console.Write($"Enter {i} array element: ");
